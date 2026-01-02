@@ -1,56 +1,24 @@
-# 📝 Todo In-Memory Python Console App
+# Todo In-Memory Python Console Application
 
-A **spec-driven, in-memory Todo console application** built with **Python 3.13+**, **UV**, **Spec-Kit Plus**, and **Claude Code**.  
-This project demonstrates an **agentic development workflow** where specifications drive planning, task breakdown, and implementation — with **zero manual coding**.
+## Overview
+A simple, reliable command-line todo application that allows users to manage tasks during a single runtime session without any external storage.
 
----
+## Setup
+1. Ensure Python 3.13+ is installed
+2. Install UV package manager: `pip install uv`
+3. Run the application: `uv run python src/main.py`
 
-## 🚀 Features
+## Usage
+The application provides a menu-driven interface with the following options:
+1. Add Task
+2. View Tasks
+3. Update Task
+4. Delete Task
+5. Mark Task Complete
+6. Mark Task Incomplete
+7. Exit
 
-- Add tasks with a title and optional description
-- View all tasks with clear status indicators
-- Update existing task details
-- Delete tasks by ID
-- Mark tasks as complete or incomplete
-- Menu-driven, user-friendly console interface
-- In-memory storage (no files, no database)
-
----
-
-## 🧱 Tech Stack
-
-- **Python:** 3.13+
-- **Package Manager:** UV
-- **Development Methodology:** Spec-Kit Plus
-- **Code Generation:** Claude Code
-- **Interface:** Console (CLI)
-
----
-
-## 📁 Project Structure
-
-/
-├── constitution.md
-├── CLAUDE.md
-├── README.md
-├── specs/
-│ ├── 001-initial-spec.md
-│ ├── 002-plan.md
-│ ├── 003-task-breakdown.md
-│ └── history/
-├── src/
-│ ├── init.py
-│ ├── main.py
-│ ├── models.py
-│ ├── services.py
-│ └── cli.py
-
-## ⚙️ Setup Instructions
-
-### 1. Prerequisites
-- Python **3.13 or higher**
-- **UV** installed
-
-Check Python version:
-```bash
-python --version
+## Example
+```
+python src/main.py
+```
